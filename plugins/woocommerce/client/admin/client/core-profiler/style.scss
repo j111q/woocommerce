@@ -65,7 +65,7 @@
 	}
 
 	.woocommerce-select-control__control-input {
-		font-size: 13px;
+		font-size: var(--wp--preset--font-size--small);
 		line-height: 16px;
 	}
 }
@@ -98,7 +98,7 @@
 	}
 
 	.woocommerce-select-control__option {
-		font-size: 13px;
+		font-size: var(--wp--preset--font-size--small);
 		height: 40px;
 		min-height: initial;
 
@@ -121,12 +121,12 @@
 
 		label,
 		.woocommerce-select-control__control-input {
-			font-size: 13px;
+			font-size: var(--wp--preset--font-size--small);
 			cursor: pointer;
 		}
 
 		.components-base-control__label {
-			font-size: 13px;
+			font-size: var(--wp--preset--font-size--small);
 			line-height: 16px;
 			color: $gray-700;
 		}
@@ -232,7 +232,7 @@
 		.components-checkbox-control__label {
 			display: inline-block;
 			color: $gray-700;
-			font-size: 13px;
+			font-size: var(--wp--preset--font-size--small);
 			line-height: 16px;
 			max-width: 514px;
 			margin-left: 10px;
@@ -245,7 +245,7 @@
 	max-width: 400px;
 	margin: auto auto 32px auto;
 	.woocommerce-select-control__option {
-		font-size: 13px;
+		font-size: var(--wp--preset--font-size--small);
 	}
 	.woocommerce-select-control__listbox {
 		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
@@ -259,7 +259,7 @@
 		border: 1px solid #bbb;
 		label,
 		input {
-			font-size: 13px;
+			font-size: var(--wp--preset--font-size--small);
 			color: var(--wp-components-color-foreground, #757575);
 		}
 		&.is-active {
@@ -558,7 +558,7 @@
 				height: 40px;
 				border-radius: 2px;
 				border-width: 1px;
-				font-size: 13px;
+				font-size: var(--wp--preset--font-size--small);
 				&:focus {
 					box-shadow: 0 0 0 2px var(--wp-admin-theme-color, #006088);
 				}
@@ -636,7 +636,7 @@
 .woocommerce-profiler-select-control__country-error {
 	background: #fce2e4;
 	padding: $gap-small;
-	font-size: 13px;
+	font-size: var(--wp--preset--font-size--small);
 	font-style: normal;
 	font-weight: 400;
 	line-height: 24px;
@@ -704,7 +704,7 @@
 
 		p {
 			font-weight: 400;
-			font-size: 13px;
+			font-size: var(--wp--preset--font-size--small);
 			line-height: 20px;
 			margin: 0;
 

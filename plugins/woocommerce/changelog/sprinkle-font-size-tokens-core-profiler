@@ -1,0 +1,4 @@
+Significance: patch
+Type: tweak
+
+Replace hardcoded `font-size: 13px` with `var(--wp--preset--font-size--small)` in the core profiler stylesheet to align with WordPress core font-size tokens.
