@@ -128,6 +128,21 @@ $border: $gray-200;
 		@include wrap-contents;
 	}
 
+	// Counts above ten previously all fell back to the ten-item grid. These pick
+	// the column count that leaves the fewest empty cells in the final row.
+	&.has-11-items,
+	&.has-12-items {
+		@include make-cols( 4 );
+		@include wrap-contents;
+	}
+
+	&.has-13-items,
+	&.has-14-items,
+	&.has-15-items {
+		@include make-cols( 5 );
+		@include wrap-contents;
+	}
+
 	@include breakpoint( '>1440px' ) {
 		&.has-6-items {
 			@include make-cols( 6 );
